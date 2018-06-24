@@ -1,0 +1,2258 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3630538693,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.beforeStartup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Test with multiple cities",
+        "description": "",
+        "id": "enter-city-name,-get-5-day-weather-forecast;test-with-multiple-cities;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 92359010,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 377954929,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is in Weather Forecast page",
+            "match": {
+              "location": "stepDefs.weatherForecastPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1214854706,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user enters as \"aberdeen\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "aberdeen",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.enterCity(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1903088,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should see 5 day weather forcast for \"aberdeen\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "aberdeen",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefs.fiveDayWeatherForecast(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1817129031,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.beforeStartup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Test with multiple cities",
+        "description": "",
+        "id": "enter-city-name,-get-5-day-weather-forecast;test-with-multiple-cities;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 87864241,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3058489,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is in Weather Forecast page",
+            "match": {
+              "location": "stepDefs.weatherForecastPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 929852190,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user enters as \"dundee\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dundee",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.enterCity(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1653487,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should see 5 day weather forcast for \"dundee\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dundee",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefs.fiveDayWeatherForecast(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1761130772,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.beforeStartup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Test with multiple cities",
+        "description": "",
+        "id": "enter-city-name,-get-5-day-weather-forecast;test-with-multiple-cities;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 85529596,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1443242,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is in Weather Forecast page",
+            "match": {
+              "location": "stepDefs.weatherForecastPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1074261962,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user enters as \"edinburgh\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "edinburgh",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.enterCity(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1731738,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should see 5 day weather forcast for \"edinburgh\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "edinburgh",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefs.fiveDayWeatherForecast(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1856731212,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.beforeStartup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Test with multiple cities",
+        "description": "",
+        "id": "enter-city-name,-get-5-day-weather-forecast;test-with-multiple-cities;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 87095333,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1327218,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is in Weather Forecast page",
+            "match": {
+              "location": "stepDefs.weatherForecastPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 934057120,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user enters as \"glasgow\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "glasgow",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.enterCity(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1103388,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should see 5 day weather forcast for \"glasgow\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "glasgow",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefs.fiveDayWeatherForecast(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1913189919,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.beforeStartup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Test with multiple cities",
+        "description": "",
+        "id": "enter-city-name,-get-5-day-weather-forecast;test-with-multiple-cities;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 87857644,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1210078,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is in Weather Forecast page",
+            "match": {
+              "location": "stepDefs.weatherForecastPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 875123858,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user enters as \"perth\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "perth",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.enterCity(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1957049,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should see 5 day weather forcast for \"perth\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "perth",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefs.fiveDayWeatherForecast(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1831426626,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.beforeStartup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Test with multiple cities",
+        "description": "",
+        "id": "enter-city-name,-get-5-day-weather-forecast;test-with-multiple-cities;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 87136781,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2506846,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is in Weather Forecast page",
+            "match": {
+              "location": "stepDefs.weatherForecastPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1052181439,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user enters as \"stirling\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "stirling",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.enterCity(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1201975,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should see 5 day weather forcast for \"stirling\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "stirling",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefs.fiveDayWeatherForecast(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Enter city name, get 5 day weather forecast",
+    "description": "",
+    "id": "enter-city-name,-get-5-day-weather-forecast",
+    "keyword": "Feature",
+    "uri": "F0_5DayWeatherForecast.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@test"
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1773717966,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.beforeStartup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "",
+        "description": "",
+        "id": "select-day,-get-3-hourly-forecast;;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 86928784,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 887293,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in Weather Forecast page",
+            "match": {
+              "location": "stepDefs.weatherForecastPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 236899429,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user clicks on \"day0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "day0",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.userClickonDay(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36983043,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should see 3 hourly forcast for that \"day0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "day0",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefs.dayExtend(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1726468277,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.beforeStartup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "",
+        "description": "",
+        "id": "select-day,-get-3-hourly-forecast;;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 87381334,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 587839,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in Weather Forecast page",
+            "match": {
+              "location": "stepDefs.weatherForecastPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 260682898,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user clicks on \"day1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "day1",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.userClickonDay(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57812284,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should see 3 hourly forcast for that \"day1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "day1",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefs.dayExtend(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1849943557,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.beforeStartup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "",
+        "description": "",
+        "id": "select-day,-get-3-hourly-forecast;;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 84815951,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1373406,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in Weather Forecast page",
+            "match": {
+              "location": "stepDefs.weatherForecastPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 208949868,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user clicks on \"day2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "day2",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.userClickonDay(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48892077,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should see 3 hourly forcast for that \"day2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "day2",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefs.dayExtend(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1773951725,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.beforeStartup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "",
+        "description": "",
+        "id": "select-day,-get-3-hourly-forecast;;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 87676468,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1315790,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in Weather Forecast page",
+            "match": {
+              "location": "stepDefs.weatherForecastPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 218619053,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user clicks on \"day3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "day3",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.userClickonDay(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60844145,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should see 3 hourly forcast for that \"day3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "day3",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefs.dayExtend(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Select day, get 3 hourly forecast",
+    "description": "",
+    "id": "select-day,-get-3-hourly-forecast",
+    "keyword": "Feature",
+    "uri": "F1_3HourlyForecast.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@test"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1801909839,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.beforeStartup()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "",
+        "description": "",
+        "id": "select-day-again,-hide-3-hourly-forecast;;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 86981996,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 199985067,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is in Weather Forecast page with 3 hourly forcast for \"Day0\" displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Day0",
+                  "offset": 60
+                }
+              ],
+              "location": "stepDefs.pageWith3hourlyforcastOpen(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 185437895,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user clicks on \"Day0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Day0",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.userClickonDay(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37410710,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Status of 3 hourly forecast should be hidden for \"Day0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Day0",
+                  "offset": 50
+                }
+              ],
+              "location": "stepDefs.dayHidden(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1870103013,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.beforeStartup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "",
+        "description": "",
+        "id": "select-day-again,-hide-3-hourly-forecast;;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 87343117,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 291554564,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is in Weather Forecast page with 3 hourly forcast for \"Day1\" displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Day1",
+                  "offset": 60
+                }
+              ],
+              "location": "stepDefs.pageWith3hourlyforcastOpen(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 202165557,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user clicks on \"Day1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Day1",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.userClickonDay(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40784688,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Status of 3 hourly forecast should be hidden for \"Day1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Day1",
+                  "offset": 50
+                }
+              ],
+              "location": "stepDefs.dayHidden(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1816552865,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.beforeStartup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "",
+        "description": "",
+        "id": "select-day-again,-hide-3-hourly-forecast;;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 85269088,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 204272252,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is in Weather Forecast page with 3 hourly forcast for \"Day2\" displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Day2",
+                  "offset": 60
+                }
+              ],
+              "location": "stepDefs.pageWith3hourlyforcastOpen(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 209189191,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user clicks on \"Day2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Day2",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.userClickonDay(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46414987,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Status of 3 hourly forecast should be hidden for \"Day2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Day2",
+                  "offset": 50
+                }
+              ],
+              "location": "stepDefs.dayHidden(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1755370852,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.beforeStartup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "",
+        "description": "",
+        "id": "select-day-again,-hide-3-hourly-forecast;;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 95732411,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 192881002,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is in Weather Forecast page with 3 hourly forcast for \"Day3\" displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Day3",
+                  "offset": 60
+                }
+              ],
+              "location": "stepDefs.pageWith3hourlyforcastOpen(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 154087019,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user clicks on \"Day3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Day3",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.userClickonDay(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32492352,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Status of 3 hourly forecast should be hidden for \"Day3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Day3",
+                  "offset": 50
+                }
+              ],
+              "location": "stepDefs.dayHidden(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Select day again, hide 3 hourly forecast",
+    "description": "",
+    "id": "select-day-again,-hide-3-hourly-forecast",
+    "keyword": "Feature",
+    "uri": "F2_3HourlyForecastHide.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@test"
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1965743441,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.beforeStartup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "",
+        "description": "",
+        "id": "daily-forecast-should-summarise-the-3-hour-data:;;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 87990730,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 491672,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is in Weather Forecast page",
+            "match": {
+              "location": "stepDefs.weatherForecastPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 215640730,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user clicks on \"Day0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Day0",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.userClickonDay(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 132632640,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should see 3 hourly forcast for \"Day0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Day0",
+                  "offset": 38
+                }
+              ],
+              "location": "stepDefs.summarisedWeather(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1836816898,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.beforeStartup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "",
+        "description": "",
+        "id": "daily-forecast-should-summarise-the-3-hour-data:;;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 90645605,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1485129,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is in Weather Forecast page",
+            "match": {
+              "location": "stepDefs.weatherForecastPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 197403160,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user clicks on \"Day1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Day1",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.userClickonDay(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 119543615,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should see 3 hourly forcast for \"Day1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Day1",
+                  "offset": 38
+                }
+              ],
+              "location": "stepDefs.summarisedWeather(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1798914609,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.beforeStartup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "",
+        "description": "",
+        "id": "daily-forecast-should-summarise-the-3-hour-data:;;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 95477991,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 451461,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is in Weather Forecast page",
+            "match": {
+              "location": "stepDefs.weatherForecastPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 201729633,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user clicks on \"Day2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Day2",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.userClickonDay(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 115286734,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should see 3 hourly forcast for \"Day2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Day2",
+                  "offset": 38
+                }
+              ],
+              "location": "stepDefs.summarisedWeather(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1824768806,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.beforeStartup()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "",
+        "description": "",
+        "id": "daily-forecast-should-summarise-the-3-hour-data:;;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 86649136,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 685352,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is in Weather Forecast page",
+            "match": {
+              "location": "stepDefs.weatherForecastPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 201042783,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user clicks on \"Day3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Day3",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.userClickonDay(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95095581,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should see 3 hourly forcast for \"Day3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Day3",
+                  "offset": 38
+                }
+              ],
+              "location": "stepDefs.summarisedWeather(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1904797972,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.beforeStartup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "",
+        "description": "",
+        "id": "daily-forecast-should-summarise-the-3-hour-data:;;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 85952170,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 483557,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is in Weather Forecast page",
+            "match": {
+              "location": "stepDefs.weatherForecastPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 212415496,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user clicks on \"Day4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Day4",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.userClickonDay(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 93229924,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should see 3 hourly forcast for \"Day4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Day4",
+                  "offset": 38
+                }
+              ],
+              "location": "stepDefs.summarisedWeather(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Daily forecast should summarise the 3 hour data:",
+    "description": "\nMost dominant (or current) condition\nMost dominant (or current) wind speed and direction\nAggregate rainfall\nMinimum and maximum temperatures",
+    "id": "daily-forecast-should-summarise-the-3-hour-data:",
+    "keyword": "Feature",
+    "uri": "F3_3HourlyForecastDetails.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1807504330,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.beforeStartup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "",
+        "description": "",
+        "id": "select-day,-get-3-hourly-forecast-with-details;;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 87028820,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2177419,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is in Weather Forecast page",
+            "match": {
+              "location": "stepDefs.weatherForecastPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 202250920,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user clicks on \"day0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "day0",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.userClickonDay(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48570820,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should see 3 hourly forcast for that \"day0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "day0",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefs.dayExtend(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "all values should be rounded down",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1718637870,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.beforeStartup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "",
+        "description": "",
+        "id": "select-day,-get-3-hourly-forecast-with-details;;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 85114832,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 426457,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is in Weather Forecast page",
+            "match": {
+              "location": "stepDefs.weatherForecastPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 197938758,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user clicks on \"day1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "day1",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.userClickonDay(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38277286,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should see 3 hourly forcast for that \"day1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "day1",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefs.dayExtend(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "all values should be rounded down",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1787218130,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.beforeStartup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "",
+        "description": "",
+        "id": "select-day,-get-3-hourly-forecast-with-details;;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 86230413,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 454080,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is in Weather Forecast page",
+            "match": {
+              "location": "stepDefs.weatherForecastPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 207770515,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user clicks on \"day2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "day2",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.userClickonDay(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39882201,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should see 3 hourly forcast for that \"day2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "day2",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefs.dayExtend(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "all values should be rounded down",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1824036279,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.beforeStartup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "",
+        "description": "",
+        "id": "select-day,-get-3-hourly-forecast-with-details;;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 91006345,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 725696,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is in Weather Forecast page",
+            "match": {
+              "location": "stepDefs.weatherForecastPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 205087906,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user clicks on \"day3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "day3",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.userClickonDay(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 42064779,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should see 3 hourly forcast for that \"day3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "day3",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefs.dayExtend(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "all values should be rounded down",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Select day, get 3 hourly forecast with details",
+    "description": "",
+    "id": "select-day,-get-3-hourly-forecast-with-details",
+    "keyword": "Feature",
+    "uri": "F4_3HourlyForecastDetailsRoundedDown.feature"
+  }
+]
